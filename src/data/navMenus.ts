@@ -8,6 +8,7 @@ import {
   faLaptopCode,
   faEnvelope,
   faCreditCard,
+  faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const navMenus: INavItem[] = [
@@ -22,7 +23,7 @@ export const navMenus: INavItem[] = [
     icon: faUser,
   },
   {
-    name: "Services",
+    name: "Tech",
     link: "/#services",
     icon: faBriefcase,
   },
@@ -34,7 +35,12 @@ export const navMenus: INavItem[] = [
   {
     name: "Skills",
     link: "/#skills",
-    icon: faAward,
+    icon: faAward,  
+  },
+  {
+    name: "Qualifications",
+    link: "/#education",
+    icon:  faGraduationCap,
   },
   {
     name: "Projects",
@@ -46,9 +52,9 @@ export const navMenus: INavItem[] = [
     link: "/#contact",
     icon: faEnvelope,
   },
-  {
-    name: "Payment",
-    link: "/payment",
-    icon: faCreditCard,
-  },
+  // {
+  //   name: "Payment",
+  //   link: "/payment",
+  //   icon: faCreditCard,
+  // },
 ];

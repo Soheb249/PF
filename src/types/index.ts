@@ -25,6 +25,16 @@ export interface IExperienceItem {
   shortDescription?: string;
   description: string[];
 }
+export interface IEducationItem {
+  designation: string;
+  college: string;
+  startDate: string;
+  endDate?: string;
+  isGraduated: boolean;
+  location: string;
+  // shortDescription?: string;
+  // description: string[];
+}
 
 export enum RepoType {
   Public,
