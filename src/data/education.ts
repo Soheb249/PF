@@ -6,7 +6,7 @@ const education: IEducationItem[] = [
     college: "Netaji Subhash Engineer College(NSEC)",
     startDate: "Oct 2022",
     endDate: "Jul 2024",
-    isGraduated:true,
+    isGraduated: true,
     location: "Kolkata, India",
     // description: [
     //   "Enhanced user engagement by 30% through responsive web applications using the MERN stack.",
@@ -20,7 +20,7 @@ const education: IEducationItem[] = [
     college: "University of Calcutta",
     startDate: "Aug 2016",
     endDate: "Dec 2020",
-    isGraduated:true,
+    isGraduated: true,
     location: "Kolkata, India",
     // description: [
     //   "Enhanced user engagement by 30% through responsive web applications using the MERN stack.",
@@ -34,7 +34,7 @@ const education: IEducationItem[] = [
     college: "Central Board of Secondary Education",
     startDate: "Apr 2015",
     endDate: "May 2016",
-    isGraduated:true,
+    isGraduated: true,
     location: "Varanasi, India",
     // description: [
     //   "Enhanced user engagement by 30% through responsive web applications using the MERN stack.",
@@ -48,7 +48,7 @@ const education: IEducationItem[] = [
     college: "Central Board of Secondary Education",
     startDate: "Apr 2013",
     endDate: "May 2014",
-    isGraduated:true,
+    isGraduated: true,
     location: "Varanasi, India",
     // description: [
     //   "Enhanced user engagement by 30% through responsive web applications using the MERN stack.",
@@ -57,7 +57,7 @@ const education: IEducationItem[] = [
     //   "Maintained data integrity by managing high-performance databases using MongoDB.",
     // ],
   },
-  
+
 
 
 ];

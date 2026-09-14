@@ -19,6 +19,11 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Expert,
         icon: "/skills/java.svg",
       },
+      {
+        title: "SQL",
+        level: SkillLevel.Expert,
+        icon: "/skills/sql.svg",
+      },
     ],
   },
   {
@@ -43,6 +48,16 @@ const skills: ISkillListItem[] = [
         title: "CSS",
         level: SkillLevel.Intermediate,
         icon: "/skills/css.svg",
+      },
+      {
+        title: "Angular",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/angular.svg",
+      },
+      {
+        title: "Tailwind CSS",
+        level: SkillLevel.Expert,
+        icon: "/skills/tailwindcss.svg",
       },
       // {
       //   title: "SASS",
@@ -100,15 +115,15 @@ const skills: ISkillListItem[] = [
     title: "Database Management",
     items: [
       {
+        title: "PostgreSQL",
+        level: SkillLevel.Expert,
+        icon: "/skills/postgresql.svg",
+      },
+      {
         title: "MongoDB",
         level: SkillLevel.Intermediate,
         icon: "/skills/mongodb.svg",
       },
-      // {
-      //   title: "PostgreSQL",
-      //   level: SkillLevel.Intermediate,
-      //   icon: "/skills/postgresql.svg",
-      // },
       {
         title: "MySQL",
         level: SkillLevel.Beginner,
@@ -119,11 +134,11 @@ const skills: ISkillListItem[] = [
   {
     title: "Version Control",
     items: [
-      // {
-      //   title: "Docker",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/docker.png",
-      // },
+      {
+        title: "Docker",
+        level: SkillLevel.Beginner,
+        icon: "/skills/docker.png",
+      },
       // {
       //   title: "AWS",
       //   level: SkillLevel.Intermediate,
@@ -144,11 +159,31 @@ const skills: ISkillListItem[] = [
   {
     title: "Miscellaneous",
     items: [
-      // {
-      //   title: "Firebase",
-      //   level: SkillLevel.Intermediate,
-      //   icon: "/skills/firebase.svg",
-      // },
+      {
+        title: "Oracle Cloud Infrastructure (OCI)",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/oci.jpg",
+      },
+      {
+        title: "RabbitMQ",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/rabbitmq.svg",
+      },
+      {
+        title: "WebSocket",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/socket-io.png",
+      },
+      {
+        title: "ChatGPT & Claude",
+        level: SkillLevel.Expert,
+        icon: "/skills/ai.jpg",
+      },
+      {
+        title: "Antigravity",
+        level: SkillLevel.Expert,
+        icon: "/skills/antigravity.jpg",
+      },
       {
         title: "Ubuntu",
         level: SkillLevel.Intermediate,
